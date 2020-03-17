@@ -1,7 +1,6 @@
 import * as $ from 'jquery';
 import 'jvectormap';
 import 'jvectormap/jquery-jvectormap.css';
-import './jquery-vmap-srilanka.js';
 import './jquery-jvectormap-world-mill.js';
 import { debounce } from 'lodash';
 
@@ -9,7 +8,7 @@ export default (function () {
   const vectorMapInit = () => {
     if ($('#world-map-marker').length > 0) {
       // This is a hack, as the .empty() did not do the work
-     $('#vmap').remove();
+      $('#vmap').remove();
 
       // we recreate (after removing it) the container div, to reset all the data of the map
       $('#world-map-marker').append(`

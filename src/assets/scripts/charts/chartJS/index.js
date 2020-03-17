@@ -54,19 +54,19 @@ export default (function () {
     new Chart(barCtx, {
       type: 'bar',
       data: {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August'],
         datasets: [{
           label           : 'Dataset 1',
           backgroundColor : COLORS['deep-purple-500'],
           borderColor     : COLORS['deep-purple-800'],
           borderWidth     : 1,
-          data            : [10, 50, 20, 40, 60, 30, 70],
+          data            : [10, 50, 20, 40, 60, 30, 70, 90],
         }, {
           label           : 'Dataset 2',
           backgroundColor : COLORS['light-blue-500'],
           borderColor     : COLORS['light-blue-800'],
           borderWidth     : 1,
-          data            : [10, 50, 20, 40, 60, 30, 70],
+          data            : [10, 50, 20, 40, 60, 30, 70, 90],
         }],
       },
 
